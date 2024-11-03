@@ -11,4 +11,8 @@
      - Root becomes gray
      - Algorithm traverses through objects' references marking objects gray. The object becomes black if all references become gray.
      - It continues until there are no more gray objects
+     - Colors:
+          - White means it's unreachable and to be garbage collected,
+          -  Gray means it's reachable and to be proceseed in the future
+          -  Black means it's reachable.
   
