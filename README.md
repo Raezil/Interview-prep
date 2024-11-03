@@ -92,6 +92,18 @@
 18. Explain the concept of the gRPC gateway.
      - gRPC gateway is a tool that generates a reverse proxy server, allowing clients to access gRPC services using traditional HTTP/JSON-based APIs. It enables interoperability between gRPC and RESTful services.
 
+19.  What are maps in Go?
+     - gMaps in Go are key-value data structures. They allow efficient retrieval and storage of values based on unique keys.
 
+20. How does Go achieve concurrency?
+     - Go uses Goroutines and channels to achieve concurrency. Goroutines are lightweight threads of execution, and channels facilitate communication between them.
 
+21. What is a pointer in Go, and how is it used?
+     - A pointer in Go holds the memory address of a value. Pointers are used to reference and modify data indirectly, improving performance in some cases.
 
+22. What are structs in Go, and how are they used?
+     - Structs are composite data types that group together variables with different data types. They are used to create custom data structures.
+   
+23. What is the difference between a method and a function in Go?
+
+     - Methods are functions associated with a type, while functions are standalone. Methods operate on instances of a type, making them more object-oriented.
