@@ -15,4 +15,18 @@
           - White means it's unreachable and to be garbage collected,
           -  Gray means it's reachable and to be proceseed in the future
           -  Black means it's reachable.
+     - Concurrent and Non-blocking: One of the strengths of Go's garbage collector is that it runs concurrently with the program and aims to be non-blocking. 
+      
+3. Difference between array and slice
+     - Arrays have a fixed size and are value types, making them suitable for when you have a known fixed number of elements.
+     - Slices, in contrast, are dynamic, more versatile, and are reference types,
   
+4. Why choose Goroutines?
+
+     - The advantages of goroutines are clear:
+          
+          - Efficiency: They require less memory and resources, which allows you to run thousands, even millions, of concurrent tasks.
+          
+          - Simplicity: The syntax for creating goroutines is very simple, making concurrent and parallel programming more approachable.
+          
+          - Scalability: Since they're so lightweight, goroutines enable applications to scale more efficiently in terms of memory usage and management overhead.
