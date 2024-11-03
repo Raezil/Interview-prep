@@ -30,3 +30,41 @@
           - Simplicity: The syntax for creating goroutines is very simple, making concurrent and parallel programming more approachable.
           
           - Scalability: Since they're so lightweight, goroutines enable applications to scale more efficiently in terms of memory usage and management overhead.
+5. What are string literals?
+
+     - A string literal is a string constant formed by concatenating characters. The two forms of string literal are raw and interpreted string literals
+
+6. What are packages in a Go program?
+
+     - Packages (pkg) are directories within your Go workspace that contain Go source files or other packages. Every function, variable, and type from your source files are stored in the linked package. Every Go source file belongs to a package,
+  
+7. How do we perform inheritance with Golang?
+
+     - This is a bit of a trick question: there is no inheritance in Golang because it does not support classes.
+     - However, you can mimic inheritance behavior using composition to use an existing struct object to define a starting behavior of a new object. Once the new object is created, functionality can be extended beyond the original struct.
+
+8. Explain Go interfaces. What are they and how do they work?
+     - Interfaces are a special type in Go that define a set of method signatures but do not provide implementations. Values of interface type can hold any value that implements those methods.
+     - Interfaces essentially act as placeholders for methods that will have multiple implementations based on what object is using it.
+
+9. Can you return multiple values from a function?
+     - Yes. A Go function can return multiple values, each separated by commas in the return statement.
+10.Reverse the order of a slice
+     - Implement function reverse that takes a slice of integers and reverses the slice in place without using a temporary slice.
+       ```
+                 package main
+          
+          import "fmt"
+          
+          func reverse(sw []int) {
+                  for a, b := 0, len(sw)-1; a < b; a, b = a+1, b-1 {
+                          sw[a], sw[b] = sw[b], sw[a]
+                  } 
+          }
+          
+          func main() { 
+              x := []int{3, 2, 1} 
+              reverse(x)
+              fmt.Println(x)
+          }
+     ```
