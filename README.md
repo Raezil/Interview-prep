@@ -68,3 +68,30 @@
               fmt.Println(x)
           }
      ```
+11. What is gRPC?
+
+     - gRPC is an open-source framework developed by Google that enables efficient communication between distributed systems by providing a language-agnostic, high-performance Remote Procedure Call (RPC) mechanism.
+
+12, What are the advantages of using gRPC over traditional REST APIs?
+     - gRPC offers advantages such as high performance, bi-directional streaming, support for multiple programming languages, automatic code generation, efficient data serialization using Protocol Buffers, and built-in authentication and load balancing.
+
+13. What is Protocol Buffers?
+     - Protocol Buffers is a language-agnostic data serialization format used by gRPC. It allows efficient encoding and decoding of structured data, making it faster and more compact compared to other formats like JSON or XML.
+
+14.How does gRPC handle data serialization and deserialization?
+     - gRPC uses Protocol Buffers for data serialization and deserialization. Protocol Buffers allow the definition of message types and generate code for various programming languages, making it easy to send and receive structured data between clients and servers.
+15.How does gRPC handle error handling and status codes?
+     - gRPC uses status codes to indicate the result of an RPC call. It provides a rich set of status codes, including standard HTTP status codes, to represent different error scenarios. Additionally, gRPC allows developers to define custom status codes for application-specific errors.
+
+16.What are interceptors in gRPC?
+     - Interceptors in gRPC are middleware components that can intercept and modify RPC messages both on the client and server side. They enable cross-cutting concerns like logging, authentication, or monitoring to be implemented in a reusable manner.
+
+17. What is the difference between gRPC and GraphQL?
+     - gRPC is a high-performance RPC framework for efficient communication between distributed systems. GraphQL, on the other hand, is a query language and runtime for APIs that enables clients to request specific data and shape the response according to their needs.
+
+18.Explain the concept of the gRPC gateway.
+     - gRPC gateway is a tool that generates a reverse proxy server, allowing clients to access gRPC services using traditional HTTP/JSON-based APIs. It enables interoperability between gRPC and RESTful services.
+
+
+
+
