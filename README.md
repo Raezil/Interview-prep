@@ -105,5 +105,7 @@
      - Structs are composite data types that group together variables with different data types. They are used to create custom data structures.
    
 23. What is the difference between a method and a function in Go?
-
      - Methods are functions associated with a type, while functions are standalone. Methods operate on instances of a type, making them more object-oriented.
+
+24. What is type embedding in Go?
+     - Type embedding is a way to create new types by embedding existing types. It promotes code reuse and composition.
